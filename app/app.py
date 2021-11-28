@@ -12,7 +12,7 @@ now = datetime.date.today()
 def main(path_pkl, path_config):
     pickle_in = pickle.load(open(path_pkl, "rb"))
     config = json.load(open(path_config,"r",encoding="utf-8"))
-    result = list((pickle_in | pipe.where(lambda x: x["date"] == "2021-01-06")))
+    result = list((pickle_in | pipe.where(lambda x: x["date"] == now.isoformat())))
 
     if len(result) > 0:
         # Format data
