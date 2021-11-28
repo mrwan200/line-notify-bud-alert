@@ -1,0 +1,6 @@
+{
+    "line": {
+        "token": "",
+        "message": "วันที่ {date} ซึ่งเป็นวันพระ ตรงกับ{type} {type_num} คํ่า เดือน{month} ปี{year}"
+    }
+}
