@@ -46,4 +46,4 @@ for data in row:
             "year": (year_quarter if len(year_quarter) > 0 else year_not_bracket)[0]
         })
 
-pickle.dump(result, open("mond.pkl", "wb"))
+pickle.dump(result, open("bud.pkl", "wb"))
