@@ -28,12 +28,12 @@ https://notify-bot.line.me/en/
 
 5. ทำการตั้ง crontab ดังนี้ (**สำหรับ Linux**)
 ```
-0 0 * * * /usr/bin/python3 <PATH_PYTHON_ALERT> --mond <PATH_MOND_PKL> --config <PATH_CONFIG_JSON>
+0 0 * * * /usr/bin/python3 <PATH_PYTHON_ALERT> --bud <PATH_BUD_PKL> --config <PATH_CONFIG_JSON>
 ```
 
 ตัวอย่างการเขียน
 ```
-0 0 * * * /usr/bin/python3 /home/m307/LINEALERT/mond/app/app.py --mond /home/m307/LINEALERT/mond/mond.pkl --config /home/m307/LINEALERT/mond/config.json
+0 0 * * * /usr/bin/python3 /home/m307/LINEALERT/bud/app/app.py --bud /home/m307/LINEALERT/bud/bud.pkl --config /home/m307/LINEALERT/bud/config.json
 ```
 
 ## Example
