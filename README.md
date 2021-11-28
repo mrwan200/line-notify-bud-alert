@@ -1,4 +1,4 @@
-# LINE Notify is Mond
+# LINE Notify Bud Alert
 ระบบแจ้งเตือนวันพระผ่าน Bot LINE Notify
 
 ## Setup
